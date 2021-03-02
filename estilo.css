@@ -84,6 +84,11 @@ body{
     font-size: 50px;
     font-weight: 400;
 }
+
+.mockup{
+    max-width: 1000px;
+    width: 100%;
+}
 .img-header .welcome > h2 a > i{color:#f8b30e; margin-right: 10px;}
 
 
@@ -177,7 +182,6 @@ body{
 .gallery-content .img-card{
     width: 100%;
     width: 100%;
-    position: relative;
 }
 .gallery-content .img-card img{
     width: 100%;
@@ -186,7 +190,6 @@ body{
     border-radius: 5px;
     transition: 300ms;
     cursor: pointer;
-    position: center;
 }
 .modal{
     position: fixed;
@@ -223,6 +226,10 @@ body{
     font-size: 30px;
     transition: 200ms;
 }
+.container {
+    margin-top: 100px;
+}
+
 
 /** Footer **/
 footer{
